@@ -1,0 +1,173 @@
+body{
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+  color: #2F4F4F;
+}
+header{
+  margin: 0 auto;
+  background-image: url('images/blog_header_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+nav{
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+  top: 0;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+  color: #5F9EA0;
+  margin: 0 25px;
+  font-family: Lato, sans-serif;
+}
+p{
+  font-family: Lato, sans-serif;
+}
+h1{
+  font-size: 56px;
+  text-align: center;
+  padding: 250px 0;
+  display: block;
+  color: white;
+  width: 100%;
+}
+main{
+  display: flex;
+  margin-bottom: 2%;
+}
+article{
+  margin: 0 3% 2%;
+}
+aside{
+  width: 100%;
+  text-align: left;
+  margin: 0 2%;
+}
+aside img{
+  width: 100%;
+}
+h1,h2,h3, nav, footer a{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer{
+  text-align: center;
+  background-color: lightcyan;
+  padding: 20px;
+}
+footer i{
+  color: #2F4F4F;
+  margin: 20px 20px 0 20px;
+}
+li{
+  color: #5F9EA0;
+  font-weight: bold;
+  text-align: left;
+  line-height: 30px;
+}
+div{
+  text-align: left;
+}
+article img{
+  width: 100%;
+}
+footer p{
+  border-top: 3px solid #5F9EA0;
+  padding-top: 30px;
+}
+input, button{
+  text-transform: uppercase;
+  padding: 8px 70px;
+  margin: 20px 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #2F4F4F;
+}
+footer button{
+  background: lightcyan;
+  border: 2px solid #5F9EA0;
+}
+button:hover{
+  background-color: #5F9EA0;
+}
+footer input{
+  border: none;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 15%;
+}
+textarea{
+  width: 100%;
+  height: 100px;
+  margin: 0 200px;
+  text-transform: uppercase;
+  color: #2F4F4F;
+  font-weight: bold;
+  color: #2F4F4F;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.contact-form button{
+  width: 100%;
+}
+.contact-form input{
+  margin: 20px 1px;
+  width: 45%;
+}
+.contact-form div{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+input, textarea, button{
+  border: 1.5px solid #2F4F4F;
+}
+#hamburger-icon{
+  display: none;
+}
+@media screen and (max-width: 660px) {
+  #hamburger-icon{
+    display: inline;
+    margin: 10px 10px;
+  }
+  #hamburger-icon i{
+    margin: 10px auto;
+  }
+  nav{
+    display: none;
+  }
+
+  aside{
+      display: none;
+  }
+  p{
+    font-size: 12px;
+  }
+  h1{
+    font-size: 3em;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 420px) {
+  aside{
+    display: none;
+  }
+  p{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 3em;
+  }
+}
