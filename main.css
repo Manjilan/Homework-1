@@ -21,7 +21,7 @@ nav{
   top: 0;
 }
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 nav a{
   color: #5F9EA0;
@@ -150,7 +150,7 @@ input, textarea, button{
   }
 
   aside{
-      display: none;
+    display: none;
   }
   p{
     font-size: 12px;
