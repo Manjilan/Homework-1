@@ -136,7 +136,7 @@ footer input{
   flex-direction: column;
   align-items: center;
   width: 70%;
-  margin: 0 15%;
+  margin: 0 auto;
 }
 textarea{
   width: 100%;
@@ -172,7 +172,7 @@ input, textarea, button{
 @media screen and (max-width: 760px) {
   #hamburger-icon{
     display: inline;
-    margin: 10px 10px;
+    margin: 2%;
   }
   #hamburger-icon i{
     margin: 10px auto;
@@ -180,7 +180,7 @@ input, textarea, button{
   section{
     flex-direction: column;
   }
-  article{
+  article, header{
     padding: 5%;
     box-sizing: border-box;
   }
